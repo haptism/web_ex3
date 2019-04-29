@@ -13,7 +13,7 @@
 #header {
 	width: 100%;
 	height: 67px;
-	background-image: url("./images/hd.png");
+	background-image: url("/web_ex3/images/hd.gif");
 	position: fixed;
 	top: 0px;
 }
@@ -22,11 +22,11 @@
 	width: 48%;
 	height: 67px;
 	margin: 0 auto;
-	/* 	overflow: hidden; */
+	/*overflow: hidden;*/
 }
 
 #header_logo {
-	/* 	margin-top: 13px; */
+	/*margin-top:13px;*/
 	padding: 13px 0px;
 	float: left;
 }
@@ -41,7 +41,7 @@
 	float: left;
 	list-style: none;
 	margin-right: 20px;
-	height: 67px;
+	line-height: 67px;
 }
 
 #header_nav li>a {
@@ -49,10 +49,9 @@
 	text-decoration: none;
 	font-size: 0.9em;
 	font-weight: bold;
-	line-height
 }
 
-#header_nav li:Last-child {
+#header_nav li:last-child {
 	margin-right: 0px;
 }
 
@@ -67,31 +66,28 @@
 	list-style: none;
 	margin-left: 10px;
 	line-height: 67px;
-	color: gray;
 }
 
 #header_subnav li>a {
-	color: gray;
+	color: white;
 	text-decoration: none;
 }
 
-/*-------------- Header End --------------------*/
-/* 	<---------------------------- Contents starts ----------------------------------> */
+/*-------------- Header End -------------------------*/
+/*-------------- Contents Start ---------------------*/
 #contents {
 	width: 48%;
 	height: 840px;
 	margin: 0 auto;
-	background-color: black;
 	margin-top: 137px;
 }
-
-/* 	<-----------------------------Contents End -------------------------------------> */
+/*-------------- Contents ENd ---------------------*/
 
 /*-------------- Footer Start ---------------------*/
 #footer {
 	width: 100%;
 	height: 132px;
-	background-image: url("./images/ft.gif");
+	background-image: url("/web_ex3/images/ft.gif");
 	margin-top: 50px;
 	overflow: hidden;
 }
@@ -111,11 +107,11 @@
 	float: left;
 	margin-left: 25px;
 	font-size: 0.7em;
-	color: gray;
+	color: white;
 }
 
 #footer_info>p>a {
-	color: gray;
+	color: white;
 	text-decoration: none;
 }
 
@@ -140,56 +136,49 @@
 </style>
 </head>
 <body>
-	<!---------------------------- Header start ----------------------------------->
+	<!--------------- Header start ----------------------->
 	<div id="header">
 		<div id="header_wrap">
 			<div id="header_logo">
 				<a href="/web_ex3/index.html"><img alt="top_logo"
-					src="./images/logo.png"></a>
+					src="/web_ex3/images/logo.png"></a>
 			</div>
 
 			<div id="header_nav">
 				<ul>
-					<li><a href="/web_ex3/company/company.html">COMPANY</a></li>
+					<li><a href="./company/company.html">COMPANY</a></li>
 					<li><a href="#">ARTISTS</a></li>
 					<li><a href="#">PR CENTER</a></li>
-					<li><a href="#">AUDIRION</a></li>
+					<li><a href="#">AUDITION</a></li>
 				</ul>
+
 			</div>
+
 			<div id="header_subnav">
 				<ul>
 					<li><a href="">CN</a></li>
 					<li><a href="">JP</a></li>
 					<li><a href="">EN</a></li>
 					<li><a href="">KO</a></li>
-					<li>|</li>
 					<li><a href="">JOIN</a></li>
 					<li><a href="">LOGIN</a></li>
 				</ul>
+
 			</div>
+
 		</div>
 	</div>
+	<!--------------- Header End ----------------------->
+	<div id="contents">
+		<h1>Comapany Page</h1>
+	</div>
 
-
-	<!---------------------------- Header End ------------------------------------->
-	
-	
-	
-	
-	<!---------------------------- Contents start ---------------------------------->
-	<div id="contents"></div>
-	<!-----------------------------Contents End ------------------------------------->
-
-
-
-
-	<!---------------------------- Footer start ----------------------------------->
+	<!---------------- Footer Start -------------------->
 	<div id="footer">
 		<div id="footer_wrap">
 			<div id="footer_logo">
-				<img alt="" src="./images/ft_logo.png">
+				<img src="/web_ex3/images/ft_logo.png">
 			</div>
-
 			<div id="footer_info">
 				<p>
 					<a href="#">개인정보취급방침</a> | <a href="#">이용약관</a> | <a href="#">고객센터/문의하기
@@ -201,23 +190,19 @@
 						RIGHT RESERVED</span>
 				</p>
 			</div>
+
 			<div id="footer_select">
 				<select>
 					<option>FNC KINGDOM SITE</option>
-					<option>FNC JAPAN</option>
-					<option>FNC STORE</option>
 					<option>FNC FACEBOOK</option>
 					<option>FNC ACADEMY</option>
-					<option>FNC GLOBAL TRAINING CENTER</option>
-					<option>FNC NEOZ SCHOOL</option>
-					<option>LOVE FNC FOUNDATION</option>
 				</select>
-
 			</div>
-		</div>
-	</div>
 
-	<!-----------------------------Footer End  ------------------------------------>
+		</div>
+
+	</div>
+	<!---------------- Footer End ---------------------->
 
 </body>
 </html>
