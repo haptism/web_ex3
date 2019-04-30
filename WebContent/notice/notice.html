@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link type="text/css" rel="stylesheet" href="/web_ex3/css/layout.css">
+<style type="text/css">
+body {
+	background-color: #efeff5;
+}
+
+#notice {
+	width: 67px;
+	margin: 0 auto;
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 150px;
+	text-align: center;
+}
+
+#contents_notice>table {
+	width: 100%;
+	border: 1px solid red;
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+#contents_notice td, #contents_notice th {
+	background-color: white;
+	border: 1px solid red;
+	height: 49px;
+	font-size: 0.8em;
+}
+
+.notice_h {
+	background-color: black;
+	color: white;
+}
+
+.notice_a {
+	text-align: center;
+}
+
+.notice_b {
+	border-bottom: 1px solid rgb(255, 0, 0);
+}
+
+#pageing
+
+#pageing>ul>li {
+	float: left;
+	list-style: none;
+	width: 25px;
+	text-align: center;
+	height: 10px;
+}
+
+#pageing_bar {
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+</style>
+</head>
+<body>
+	<!---------------------------- Header start ----------------------------------->
+	<div id="header">
+		<div id="header_wrap">
+			<div id="header_logo">
+				<a href="/web_ex3/index.html"> <img alt="top_logo"
+					src="/web_ex3/images/logo.png"></a>
+			</div>
+
+			<div id="header_nav">
+				<ul>
+					<li><a href="/web_ex3/company/company.html">COMPANY</a></li>
+					<li><a href="/web_ex3/artists/artists.html">ARTISTS</a></li>
+					<li><a href="/web_ex3/center/center.html">PR CENTER</a></li>
+					<li><a href="/web_ex3/audition/audition.html">AUDIRION</a></li>
+				</ul>
+			</div>
+			<div id="header_subnav">
+				<ul>
+					<li><a href="/web_ex3/index.html">CN</a></li>
+					<li><a href="/web_ex3/index.html">JP</a></li>
+					<li><a href="/web_ex3/index.html">EN</a></li>
+					<li><a href="/web_ex3/index.html">KO</a></li>
+					<li>|</li>
+					<li><a href="/web_ex3/index.html">JOIN</a></li>
+					<li><a href="/web_ex3/index.html">LOGIN</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<!---------------------------- Header End ------------------------------------->
+
+	<!-----------------------------Contents start ------------------------------------->
+	<div id="contents"></div>
+	<div id="notice">NOTICE</div>
+	<div>
+		<table>
+			<tr>
+				<th class="notice_h">NUM</th>
+				<th class="notice_h">SUBJECT</th>
+				<th class="notice_h">NAME
+				<th class="notice_h"></th>DATE
+				<th class="notice_h"></th>HIT
+				<th class="notice_h"></th>
+			</tr>
+			<tr>
+				<td class="notice_a notice_b">게시물번호</td>
+				<td class="notice_a notice_b">게시글</td>
+				<td class="notice_a notice_b">이름</td>
+				<td class="notice_a notice_b">날짜</td>
+				<td class="notice_a notice_b">조회</td>
+			</tr>
+			<tr>
+				<td class="notice_a notice_b">게시물번호</td>
+				<td class="notice_a notice_b">게시글</td>
+				<td class="notice_a notice_b">이름</td>
+				<td class="notice_a notice_b">날짜</td>
+				<td class="notice_a notice_b">조회</td>
+			</tr>
+			<tr>
+				<td class="notice_a notice_b">게시물번호</td>
+				<td class="notice_a notice_b">게시글</td>
+				<td class="notice_a notice_b">이름</td>
+				<td class="notice_a notice_b">날짜</td>
+				<td class="notice_a notice_b">조회</td>
+			</tr>
+		</table>
+	</div>
+
+	<div>
+
+		<div>
+			<input type="text" placeholder="search">
+		</div>
+		<div id="pageing">
+
+			<ul>
+				<li>&lt;&lt;</li>
+				<li>&lt;</li>
+				<li id="pageing_bar">1</li>
+				<li id="pageing_bar">2</li>
+				<li id="pageing_bar">3</li>
+				<li id="pageing_bar">4</li>
+				<li id="pageing_bar">5</li>
+				<li>&lt;</li>
+				<li>&lt;&lt;</li>
+			</ul>
+		</div>
+
+	</div>
+
+
+	<!-----------------------------Contents End ------------------------------------->
+	<!-----------------------------Table start ------------------------------------>
+
+
+	<!-----------------------------Table End ------------------------------------>
+
+
+	<!---------------------------- Footer start ----------------------------------->
+	<div id="footer">
+		<div id="footer_wrap">
+			<div id="footer_logo">
+				<img alt="" src="/web_ex3/images/ft_logo.png">
+			</div>
+
+			<div id="footer_info">
+				<p>
+					<a href="#">개인정보취급방침</a> | <a href="#">이용약관</a> | <a href="#">고객센터/문의하기
+						(Customer Service)</a>
+				</p>
+				<p>
+					서울시 강남구 청담동 111 (주) FNC ENTERTAINMENT | TEL. 02) 517-5426 | FAX.
+					02) 518-5428<br> <span>COPYRIGHT © 2014 FNCENT.COM ALL
+						RIGHT RESERVED</span>
+				</p>
+			</div>
+			<div id="footer_select">
+				<select>
+					<option>FNC KINGDOM SITE</option>
+					<option>FNC JAPAN</option>
+					<option>FNC STORE</option>
+					<option>FNC FACEBOOK</option>
+					<option>FNC ACADEMY</option>
+					<option>FNC GLOBAL TRAINING CENTER</option>
+					<option>FNC NEOZ SCHOOL</option>
+					<option>LOVE FNC FOUNDATION</option>
+				</select>
+
+			</div>
+		</div>
+	</div>
+
+	<!-----------------------------Footer End  ------------------------------------>
+</body>
+</html>
