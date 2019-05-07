@@ -3,118 +3,107 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link type="text/css" rel="stylesheet" href="/web_ex3/css/layout.css">
-<style type="text/css">
-#join>p {
-	border: 1px solid red; 
-	width: 80px;
-}
-</style>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../css/layout.css">
+<style type="text/css">
+
+</style>
 </head>
 <body>
-	<!---------------------------- Header start ----------------------------------->
-	<div id="header">
+	
+		<!--------------- Header start ----------------------->
+	<header id="header">
 		<div id="header_wrap">
 			<div id="header_logo">
-				<a href="/web_ex3/index.html"> <img alt="top_logo"
-					src="/web_ex3/images/logo.png"></a>
+				<a href="/web_ex3/index.html"><img alt="top_logo" src="/web_ex3/images/logo.png"></a>
 			</div>
-
-			<div id="header_nav">
+			
+			<nav id="header_nav">
 				<ul>
 					<li><a href="/web_ex3/company/company.html">COMPANY</a></li>
-					<li><a href="/web_ex3/artists/artists.html">ARTISTS</a></li>
-					<li><a href="/web_ex3/center/center.html">PR CENTER</a></li>
-					<li><a href="/web_ex3/audition/audition.html">AUDIRION</a></li>
+					<li><a href="#">ARTISTS</a></li>
+					<li><a href="#">PR CENTER</a></li>
+					<li><a href="#">AUDITION</a></li>
 				</ul>
-			</div>
-			<div id="header_subnav">
-				<ul>
-					<li><a href="/web_ex3/index.html">CN</a></li>
-					<li><a href="/web_ex3/index.html">JP</a></li>
-					<li><a href="/web_ex3/index.html">EN</a></li>
-					<li><a href="/web_ex3/index.html">KO</a></li>
-					<li>|</li>
-					<li><a href="/web_ex3/index.html">JOIN</a></li>
-					<li><a href="/web_ex3/index.html">LOGIN</a></li>
+			
+			</nav>
+			
+			<nav id="header_subnav">
+				<ul >
+					<li><a href="">CN</a></li>
+					<li><a href="">JP</a></li>
+					<li><a href="">EN</a></li>
+					<li><a href="">KO</a></li>
+					<li><a href="">JOIN</a></li>
+					<li><a href="">LOGIN</a></li>
 				</ul>
-			</div>
+			
+			</nav>
+			
 		</div>
-	</div>
-
-
-	<!---------------------------- Header End ------------------------------------->
-
-
-	<div></div>
-	<div></div>
-	<div id="join">
-
-		<p>
-			카카오계정 이메일 <input type="text">
-		</p>
-		<p>
-			비밀번호(8~32자리)<input type="password">
-		</p>
-		<p>
-			비밀번호 재입력<input type="password">
-		</p>
-		<p>
-			닉네임<input type="text">
-		</p>
-		<p>
-			생년월일<input type="date">
-		</p>
-		<p>성별
-		<p>
-			M <input type="radio" name="mobile"> F <input type="radio"
-				name="mobile">
-		</p>
-
-	</div>
-
-	<div></div>
-	<div></div>
-	<div></div>
-
-
-	<!---------------------------- Footer start ----------------------------------->
-	<div id="footer">
+	</header>
+	<!--------------- Header End ----------------------->
+	
+	<!--------------- Contents Start ------------------->
+	<section id="contents">
+		<article>
+			<h1>Login Form</h1>
+			
+			<form action="#">
+				<p>ID <input type="text"></p>
+				<p>PW <input type="password"></p>
+				<p><input type="submit" value="LOGIN"> </p>
+				<p><button class="btn-primary">LOGIN</button> </p>
+			</form>
+		
+		</article>
+		
+		<table class="table-bordered">
+			<tr><td>1</td><td>2</td><td>3</td></tr>
+			<tr><td>4</td><td>5</td><td>6</td></tr>
+			<tr><td>7</td><td>8</td><td>9</td></tr>
+		</table>
+	
+	
+	
+	</section>
+	<!-- Contents End -->
+	
+	
+	<!---------------- Footer Start -------------------->
+	<footer id="footer">
 		<div id="footer_wrap">
 			<div id="footer_logo">
-				<img alt="" src="./images/ft_logo.png">
+				<img src="/web_ex3/images/ft_logo.png">
 			</div>
-
 			<div id="footer_info">
+				<p><a href="#">개인정보취급방침</a> | <a href="#">이용약관</a> | <a href="#">고객센터/문의하기 (Customer Service)</a></p>
 				<p>
-					<a href="#">개인정보취급방침</a> | <a href="#">이용약관</a> | <a href="#">고객센터/문의하기
-						(Customer Service)</a>
-				</p>
-				<p>
-					서울시 강남구 청담동 111 (주) FNC ENTERTAINMENT | TEL. 02) 517-5426 | FAX.
-					02) 518-5428<br> <span>COPYRIGHT © 2014 FNCENT.COM ALL
-						RIGHT RESERVED</span>
+					서울시 강남구 청담동 111 (주) FNC ENTERTAINMENT  |   TEL. 02) 517-5426   |  FAX. 02) 518-5428<br>
+					<span>COPYRIGHT © 2014 FNCENT.COM ALL RIGHT RESERVED</span>
 				</p>
 			</div>
+			
 			<div id="footer_select">
 				<select>
 					<option>FNC KINGDOM SITE</option>
-					<option>FNC JAPAN</option>
-					<option>FNC STORE</option>
 					<option>FNC FACEBOOK</option>
 					<option>FNC ACADEMY</option>
-					<option>FNC GLOBAL TRAINING CENTER</option>
-					<option>FNC NEOZ SCHOOL</option>
-					<option>LOVE FNC FOUNDATION</option>
 				</select>
-
 			</div>
+		
 		</div>
-	</div>
-
-	<!-----------------------------Footer End  ------------------------------------>
-
-
+	
+	</footer>
+	<!---------------- Footer End ---------------------->
+	
 </body>
 </html>

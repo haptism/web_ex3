@@ -3,217 +3,73 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<style type="text/css">
-* {
-	margin: 0px;
-	padding: 0px;
-}
-/*-------------- Header Start --------------------*/
-#header {
-	width: 100%;
-	height: 67px;
-	background-image: url("/web_ex3/images/hd.png");
-	position: fixed;
-	top: 0px;
-}
+<link type="text/css" rel="stylesheet" href="./css/layout.css">
 
-#header_wrap {
-	width: 48%;
-	height: 67px;
-	margin: 0 auto;
-	/* 	overflow: hidden; */
-}
-
-#header_logo {
-	/* 	margin-top: 13px; */
-	padding: 13px 0px;
-	float: left;
-}
-
-#header_nav {
-	height: 67px;
-	float: left;
-	margin-left: 160px;
-}
-
-#header_nav li {
-	float: left;
-	list-style: none;
-	margin-right: 20px;
-	height: 67px;
-}
-
-#header_nav li>a {
-	color: white;
-	text-decoration: none;
-	font-size: 0.8em;
-	font-weight: bold;
-	line-height: 67px;
-}
-
-#header_nav li:Last-child {
-	margin-right: 0px;
-}
-
-#header_subnav {
-	height: 67px;
-	float: right;
-}
-
-#header_subnav li {
-	float: right;
-	font-size: 0.7em;
-	list-style: none;
-	margin-left: 10px;
-	line-height: 67px;
-	color: gray;
-}
-
-#header_subnav li>a {
-	color: gray;
-	text-decoration: none;
-}
-/*-------------- Header End --------------------*/
-/* 	<---------------------------- Contents starts ----------------------------------> */
-#contents {
-	width: 48%;
-	height: 840px;
-	margin: 0 auto;
-	background-color: black;
-	margin-top: 137px;
-}
-/* 	<-----------------------------Contents End -------------------------------------> */
-/*-------------- Footer Start ---------------------*/
-#footer {
-	width: 100%;
-	height: 132px;
-	background-image: url("/web_ex3/images/ft.gif");
-	margin-top: 50px;
-	overflow: hidden;
-}
-
-#footer_wrap {
-	width: 48%;
-	height: 132px;
-	margin: 0 auto;
-	margin-top: 30px;
-}
-
-#footer_logo {
-	float: left;
-}
-
-#footer_info {
-	float: left;
-	margin-left: 25px;
-	font-size: 0.7em;
-	color: gray;
-}
-
-#footer_info>p>a {
-	color: gray;
-	text-decoration: none;
-}
-
-#footer_info>p:first-child {
-	margin-bottom: 10px;
-}
-
-#footer_info>p:last-child>span {
-	font-size: 0.5em;
-}
-
-#footer_select {
-	float: right;
-}
-
-#footer_select>select {
-	width: 200px;
-	background-color: gray;
-	color: rgb(230, 230, 230);
-}
-/*-------------- Footer End ---------------------*/
-</style>
 </head>
 <body>
-	<!---------------------------- Header start ----------------------------------->
-	<div id="header">
+	<!--------------- Header start ----------------------->
+	<header id="header">
 		<div id="header_wrap">
 			<div id="header_logo">
-				<a href="/web_ex3/index.html"><img alt="top_logo"
-					src="./images/logo.png"></a>
+				<a href="/web_ex3/index.html"><img alt="top_logo" src="./images/logo.png"></a>
 			</div>
-
-			<div id="header_nav">
+			
+			<nav id="header_nav">
 				<ul>
 					<li><a href="/web_ex3/company/company.html">COMPANY</a></li>
-					<li><a href="/web_ex3/artists/artists.html">ARTISTS</a></li>
-					<li><a href="/web_ex3/center/center.html">PR CENTER</a></li>
-					<li><a href="/web_ex3/audition/audition.html">AUDIRION</a></li>
+					<li><a href="#">ARTISTS</a></li>
+					<li><a href="#">PR CENTER</a></li>
+					<li><a href="#">AUDITION</a></li>
 				</ul>
-			</div>
-			<div id="header_subnav">
-				<ul>
-					<li><a href="/web_ex3/index.html">CN</a></li>
-					<li><a href="/web_ex3/index.html">JP</a></li>
-					<li><a href="/web_ex3//notice.html">EN</a></li>
-					<li><a href="/web_ex3/index.html">KO</a></li>
-					<li>|</li>
-					<li><a href="/web_ex3/member/memberjoin.html">JOIN</a></li>
-					<li><a href="/web_ex3/member/memberlogin.html">LOGIN</a></li>
+			
+			</nav>
+			
+			<nav id="header_subnav">
+				<ul >
+					<li><a href="">CN</a></li>
+					<li><a href="">JP</a></li>
+					<li><a href="">EN</a></li>
+					<li><a href="">KO</a></li>
+					<li><a href="">JOIN</a></li>
+					<li><a href="">LOGIN</a></li>
 				</ul>
-			</div>
+			
+			</nav>
+			
 		</div>
-	</div>
-
-
-	<!---------------------------- Header End ------------------------------------->
-
-
-
-
-	<!---------------------------- Contents start ---------------------------------->
-	<div id="contents"></div>
-	<!-----------------------------Contents End ------------------------------------->
-
-
-
-
-	<!---------------------------- Footer start ----------------------------------->
-	<div id="footer">
+	</header>
+	<!--------------- Header End ----------------------->
+	
+	<!--------------- Contents Start ------------------->
+	<section id="contents"></section>
+	<!-- Contents End -->
+	
+	<!---------------- Footer Start -------------------->
+	<footer id="footer">
 		<div id="footer_wrap">
 			<div id="footer_logo">
-				<img alt="" src="./images/ft_logo.png">
+				<img src="/web_ex3/images/ft_logo.png">
 			</div>
-
 			<div id="footer_info">
+				<p><a href="#">개인정보취급방침</a> | <a href="#">이용약관</a> | <a href="#">고객센터/문의하기 (Customer Service)</a></p>
 				<p>
-					<a href="#">개인정보취급방침</a> | <a href="#">이용약관</a> | <a href="#">고객센터/문의하기
-						(Customer Service)</a>
-				</p>
-				<p>
-					서울시 강남구 청담동 111 (주) FNC ENTERTAINMENT | TEL. 02) 517-5426 | FAX.
-					02) 518-5428<br> <span>COPYRIGHT © 2014 FNCENT.COM ALL
-						RIGHT RESERVED</span>
+					서울시 강남구 청담동 111 (주) FNC ENTERTAINMENT  |   TEL. 02) 517-5426   |  FAX. 02) 518-5428<br>
+					<span>COPYRIGHT © 2014 FNCENT.COM ALL RIGHT RESERVED</span>
 				</p>
 			</div>
+			
 			<div id="footer_select">
 				<select>
 					<option>FNC KINGDOM SITE</option>
-					<option>FNC JAPAN</option>
-					<option>FNC STORE</option>
 					<option>FNC FACEBOOK</option>
 					<option>FNC ACADEMY</option>
-					<option>FNC GLOBAL TRAINING CENTER</option>
-					<option>FNC NEOZ SCHOOL</option>
-					<option>LOVE FNC FOUNDATION</option>
 				</select>
-
 			</div>
+		
 		</div>
-	</div>
-
-	<!-----------------------------Footer End  ------------------------------------>
+	
+	</footer>
+	<!---------------- Footer End ---------------------->
 
 </body>
 </html>
